@@ -1,0 +1,66 @@
+{
+    "projects": [
+        {
+            "id" : 0,
+            "project_name" : "Randomly Generated Employee Directory",
+            "description" : "This application uses the Fetch API to get information on randomly generated personas from the Random User Generator API. 12 profiles are generated upon loading the application and organized to mimic a directory for a company. A person's profile can be expanded by clicking on a person's card on the page.",
+            "technologies" : [
+                "HTML",
+                "CSS",
+                "Javascript",
+                "Fetch API"
+            ],
+            "live_link" : "https://ajkeith15.github.io/StartupRandomEmployeeDir/",
+            "github_link" : "https://github.com/AJKeith15/StartupRandomEmployeeDir.git",
+            "image_urls" : ["/static/images/Project5_main.png", "/static/images/Project5_1.png", "/static/images/Project5_2.png"]
+        },{
+            "id" : 1,
+            "project_name" : "Phrase Hunter Game",
+            "description" : "Phrase Hunter is an application which utilizes the strengths of object-oriented programming to build a game environment with many different objects. The javascript programming in this application deploys many different classes which are instantiated by the user to build out the game shown in the images below. A user guesses the letters within a phrase using either the virtual or physical keyboard as input. The user loses a life with each wrong guess until all lives are lost or the phrase is revealed successfully.",
+            "technologies" : [
+                "HTML",
+                "CSS",
+                "Javascript"
+            ],
+            "live_link" : "https://ajkeith15.github.io/PhraseHunterGame/",
+            "github_link" : "https://github.com/AJKeith15/PhraseHunterGame.git",
+            "image_urls" : ["/static/images/Project4_main.png", "/static/images/Project4_1.png", "/static/images/Project4_2.png", "/static/images/Project4_3.png"]
+        },{
+            "id" : 2,
+            "project_name" : "Interactive Form",
+            "description" : "The interactive form is a mock form that uses regex to validate various form fields. HTML elements are revealed or hidden based on previous selection by the user.",
+            "technologies" : [
+                "HTML",
+                "CSS",
+                "Javascript"
+            ],
+            "live_link" : "https://ajkeith15.github.io/InteractiveForm_TreehouseProject3/",
+            "github_link" : "https://github.com/AJKeith15/InteractiveForm_TreehouseProject3.git",
+            "image_urls" : ["/static/images/Project3_main.png", "/static/images/Project3_1.png", "/static/images/Project3_2.png"]
+        },{
+            "id" : 3,
+            "project_name" : "Pagination",
+            "description" : "This application takes a large list of people and paginates them into separate pages of 10 people each. A search field was implemented to show matching results of the user's input. The results from the search field are also paginated into pages of 10 people each.",
+            "technologies" : [
+                "HTML",
+                "CSS",
+                "Javascript"
+            ],
+            "live_link" : "https://ajkeith15.github.io/Pagination/",
+            "github_link" : "https://github.com/AJKeith15/Pagination.git",
+            "image_urls" : ["/static/images/Project2_main.png", "/static/images/Project2_1.png", "/static/images/Project2_2.png"]
+        },{
+            "id" : 4,
+            "project_name" : "Random Space and Exploration Quote Generator",
+            "description" : "This project speaks for itself. An array of quote objects are chosen from randomly and displayed on the page. The page changes on a 10 second timer or by user input of a button.",
+            "technologies" : [
+                "HTML",
+                "CSS",
+                "Javascript"
+            ],
+            "live_link" : "https://ajkeith15.github.io/RandomSpaceAndExplorationQuoteGenerator/",
+            "github_link" : "https://github.com/AJKeith15/RandomSpaceAndExplorationQuoteGenerator.git",
+            "image_urls" : ["/static/images/Project1_main.png", "/static/images/Project1_1.png", "/static/images/Project1_2.png"]
+        }
+    ]
+}

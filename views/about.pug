@@ -1,0 +1,46 @@
+extends layout.pug
+
+block content 
+  nav.grid-container.portfolio-breadcrumb
+    a(href='/') ← Back
+  article.grid-container.portfolio-intro.portfolio-project
+    .grid-x
+      .cell.small-6.medium-9.large-9
+        h1 AJ Keith
+        p.lead.text-light
+          | Full Stack JavaScript Developer, Mechanical Engineer, passionate adventurer, and supporter of the Oxford comma.
+        .portfolio-bio
+          // about me
+          p 
+            | Pursuing my enjoyment and proficiency in math and science, I graduated with a B.S. in mechanical engineering from the University of Vermont in 2015. 
+            | Since then I have spent some time in a few different industries. I started as a structural analyst for John Deere spending all of my time working with FEA software. 
+          p 
+            | I then transferred into the semiconductor manufacturing industry with a test engineering role at one of the leading ion implantation companies in the world. I spent my time at Axcelis Technologies traveling the world testing implanters at sites like Samsung and Intel.
+            | Since my departure from Axcelis I have been working as an automation and product engineer at an environmental emmissions company. This position has exposed me to software development via my involvement in the company's IIoT platform. This experience has opened up a door into the world of software engineering which I quickly found a passion for.
+          p 
+            | I now spend a majority of my free time learning new programming languages and techniques with the hope to route my career into software engineering.
+            | When I am not coding or learning to do so, I am most likely on my mountain bike or on a golf course spending my time outside.
+      .cell.portfolio-meta.small-6.medium-2.large-3
+        h6 Skills
+        ul
+          li Javascript
+          li CSS
+          li HTML
+          li Express
+          li Pug
+          li GitHub
+          li SQL Server
+          li Python
+          li IIoT Environments
+          li AVEVA System Platform
+        h6 Contact Info
+        ul
+          li 207-890-2545
+          li aj8keith@yahoo.com
+
+        // links to social media - opens in new browser tab
+        a.button.expanded(href='www.linkedin.com/in/andrew-keith-bb4738b2/' target='_blank') LinkedIn
+        a.button.expanded(href='https://github.com/AJKeith15/' target='_blank') GitHub
+  nav.grid-container.portfolio-breadcrumb
+    a(href='/') ← Back
+  
